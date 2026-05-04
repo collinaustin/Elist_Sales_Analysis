@@ -22,7 +22,11 @@ The SQL scripts can be found [here](https://github.com/collinaustin/Elist_Sales_
 
 **Seasonality**: Q3 and Q4 were consistently the strongest quarters, with August, September, and December outperforming the monthly average. February and October were reliably the weakest months, averaging roughly 20% below the monthly baseline. The longest sustained expansion ran from Q3 2019 through Q4 2020, six consecutive quarters of growth, followed by five consecutive declining quarters from Q4 2021 through Q4 2022.
 
+![sales index](https://github.com/collinaustin/Elist_Sales_Analysis/raw/main/monthly_sales_index.png)
+
 **Product Performance**: Revenue concentration was a recurring theme. In 2020, three products (Macbook Air, 27in 4K Gaming Monitor, and Apple AirPods) accounted for 85% of the year's revenue increase. When those same products declined, there was no secondary tier to offset the losses: the Macbook Air dropped 35% in 2021, while the gaming monitor and AirPods both fell sharply in 2022, with the monitor alone accounting for roughly one-third of the total 2022 revenue decline. Fulfillment remained a consistent strength throughout, with average time-to-ship holding at 2 days and time-to-deliver at 5.5 days even during the 2020/2021 volume surge.
+
+![individual product](https://github.com/collinaustin/Elist_Sales_Analysis/raw/main/individual_product.png)
 
 **Regional Performance**: North American region (NA), and Europe, the Middle East, and Africa region (EMEA) together accounted for 81% of total sales, but both regions experienced significant declines in the back half of the period. NA dropped 16% in 2021 (roughly $845K), and EMEA fell 51% in 2022 ($1.4M), making it the single largest driver of overall revenue contraction that year. Asia-Pacific region (APAC), while third in total sales and order volume, posted the highest AOV in both the loyalty ($261) and non-loyal ($292) segments, suggesting a high-value but underpenetrated customer base. The Latin-America region (LATAM) was the weakest region across nearly all measures.
 
