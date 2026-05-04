@@ -8,13 +8,17 @@ My job is to deliver insights to teams across the company, including finance, sa
 ## The Data
 The company has a core dataset consisting of orders, order statuses, customers, products, and geographic information. Their data is quite messy and contains plenty of insights that have not yet been discovered by the company. Before beginning the exploratory analysis, I cleaned the data by correcting for things like incosistent data format, inconsistent names for products, missing prices, missing marketing channels and region names.
 
-The entity relationship diagram (ERD) is as follows: ![ERD](https://github.com/collinaustin/Elist_Sales_Analysis/raw/main/Elist%20ERD.png)
+The entity relationship diagram (ERD) is as follows: 
+
+![ERD](https://github.com/collinaustin/Elist_Sales_Analysis/raw/main/Elist%20ERD.png)
 
 ## Summary of Insights
 
 The SQL scripts can be found [here](https://github.com/collinaustin/Elist_Sales_Analysis/blob/main/sql_analysis.sql).
 
 **Yearly Sales Trends**: From 2019 to 2022, Elist averaged roughly 27,000 orders per year, generating about $7M in annual revenue at an average order value (AOV) of $254. Sales grew at a 9% compounded annual growth rate (CAGR) over the period, though performance was highly volatile. 2020 was the standout year, with a roughly 3x surge in revenue driven by a combination of higher AOV and order count. That momentum partially carried into 2021, which saw the highest order volume despite a modest revenue decline caused by a 15% drop in AOV. 2022 marked a sharp reversal, with sales contracting 46% YoY and Q4 2022 representing the lowest quarterly performance across the entire four-year period.
+
+![aov_vs_sales](https://github.com/collinaustin/Elist_Sales_Analysis/raw/main/aov_vs_sales_growth.png)
 
 **Seasonality**: Q3 and Q4 were consistently the strongest quarters, with August, September, and December outperforming the monthly average. February and October were reliably the weakest months, averaging roughly 20% below the monthly baseline. The longest sustained expansion ran from Q3 2019 through Q4 2020, six consecutive quarters of growth, followed by five consecutive declining quarters from Q4 2021 through Q4 2022.
 
