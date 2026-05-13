@@ -39,3 +39,20 @@ The SQL scripts can be found [here](https://github.com/collinaustin/Elist_Sales_
 **Apple Refund Rates**: Between 2019 and 2021 (2022 refund data was excluded due to apparent incompleteness), all products averaged a 6% refund rate, while Apple products averaged 7%. Apple refund rates peaked at 10% in 2020 before declining to 4% in 2021, mirroring the overall trend. Among Apple products, the Macbook Air had the highest refund rate at 13%, while AirPods had the lowest rate at 7% but the highest refund volume in the entire catalog at 2,636 units, nearly 1,200 more than the next highest product. Apple products accounted for 58% of all refunded orders while representing 50% of total orders. However, two non-Apple products posted higher individual refund rates (27in 4K Gaming Monitor at 8%, ThinkPad Laptop at 14%), indicating Apple products are not uniquely problematic on a rate basis. Loyal customers refunded at a higher rate than non-loyal across all products (8% vs. 6%), a pattern that held within the Apple segment as well (8% vs. 6%).
 
 ![refunds](https://github.com/collinaustin/Elist_Sales_Analysis/raw/main/apple_refund.png)
+
+## Recommendations
+
+### Overall Sales Trends: 
+Elist generated $28.1M in revenue across ~108K orders from 2019–2022, averaging $7M/year at a $254 AOV, but the topline was volatile. A pandemic-driven ~3x surge in 2020 was followed by a 10% dip in 2021 (driven by a 15% AOV decline that offset order growth) and a steep 46% contraction in 2022. To stabilize and grow revenue, **Elist should introduce bundling discounts, potentially tied to the loyalty program or offered as larger incentives for repeat purchases during low-volume months, to increase basket size and address the AOV softness that dragged down 2021 results even as order counts grew.**
+
+Additionally, **targeted promotions in February and October, the two most consistently underperforming months (~16–19% below the monthly average), would be low-cost opportunities to capture incremental revenue: a Valentine's Day campaign in February, and a Halloween or early Black Friday tie-in for October.** 
+
+More critically, the 46% decline in 2022, which wiped out $4.2M in revenue and represented the steepest contraction in the dataset, demands further investigation. **Elist should conduct a root-cause analysis to determine whether this contraction reflects broader macroeconomic conditions, increased competition, or a product assortment that is no longer meeting consumer demand, as the answer will fundamentally shape which growth strategies are worth pursuing.**
+
+### Concentration Risk:
+Elist's revenue is dangerously concentrated on both the product and regional level. Three products (Macbook Air, 27in 4K Gaming Monitor, and Apple AirPods) accounted for 85% of the 2020 revenue surge, and those same three drove the subsequent collapse, with the gaming monitor alone responsible for roughly one-third of the 2022 decline and the Macbook Air falling 35% in 2021 and 55% in 2022. Regionally, NA and EMEA make up 81% of total sales, and when those two markets stumbled (NA down 16% in 2021, EMEA down 51% in 2022), there was no offsetting growth elsewhere to absorb the impact. 
+
+**Elist should diversify both its product catalog and its regional footprint to ensure that weakness in any single product or market does not cascade into a company-wide contraction.**
+
+On the product side, that means assessing whether the gaming monitor and Macbook Air will remain competitive and expanding into new categories that reduce dependence on a three-product core. On the regional side, APAC should be the top expansion priority: it already posts the highest AOV in both loyalty ($261) and non-loyal ($292) segments despite ranking third in volume, signaling a high-value, underpenetrated market. Elist's fulfillment team, which has consistently delivered 2-day ship times and 5.5-day delivery averages even through peak volume years, is well positioned to scale into new regions.
+
